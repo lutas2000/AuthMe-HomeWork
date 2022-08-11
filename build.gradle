@@ -27,6 +27,8 @@ ext {
     fragmentKtxVersion = '1.5.1'
     lifecycleVersion = '2.5.1'
     navVersion = '2.5.1'
+    gsonVersion = '2.9.1'
+    converterGsonVersion = '2.9.0'
 }
 
 task clean(type: Delete) {
