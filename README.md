@@ -1,12 +1,12 @@
 # AuthMe-HomeWork
 
 ## Bonus Stage
-[x] Paginated
-[x] Detail Page
-[ ] Unit Test
-[ ] UI Test
+- [x] Paginated
+- [x] Detail Page
+- [ ] Unit Test
+- [ ] UI Test
 
-##　Dependency
+## Dependency
 - Navigation - Navigation for Fragments
 - Koin - Dependency injection
 - Retrofit - Restful API
