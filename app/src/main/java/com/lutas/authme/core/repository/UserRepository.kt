@@ -24,6 +24,7 @@ class UserRepository(private val userRemoteDataSource: UserRemoteDataSource) : I
             config = PagingConfig(
                 pageSize = Config.PER_PAGE,
                 enablePlaceholders = false,
+                initialLoadSize = 20
             ),
             pagingSourceFactory = { UsersPagingSource(userRemoteDataSource) }
         ).liveData

@@ -23,7 +23,7 @@ class UsersPagingSource(
             }
             LoadResult.Page(
                 data = users,
-                prevKey = null,
+                prevKey = if (since <= params.loadSize) null else since - params.loadSize,
                 nextKey = nextKey
             )
         } catch (throwable: Throwable) {
